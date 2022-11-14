@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+    background-color: #23252C;
+}
+
+.container {
+  max-width: 317px;
+  margin: 0 auto;
+}
+
+.header--pic {
+  width: 317px;
+  height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main--section {
+  background-color: #1A1B21;
+  margin-top: -21px;
+  padding-bottom: 40px;
+}
+
+.info--section {
+  text-align: center;
+}
+
+.info--section h1 {
+  font-size: 25px;
+  color: white;
+  padding-top: 30px;
+}
+
+.info--section p {
+  color: #F3BF99;
+  font-size: 13px;
+  margin-top: -15px;
+}
+
+.info--section small {
+  display: block;
+  font-size: 11px;
+  color: #F5F5F5;
+  margin-bottom: 40px;
+}
+
+.contact--btns {
+  margin-bottom: 20%;
+}
+
+.contact--btns a {
+  font-size: 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.contact--btns i {
+  padding-right: 10px;
+}
+
+.contact--btns a:first-child {
+  background-color: white;
+  padding: 10px 25px;
+  color: black;
+  margin: 0 5px 0 -15px;
+}
+
+.contact--btns a:last-child {
+  background-color: #5093E2;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 0 0 15px;
+}
+
+.main--texts {
+  padding: 0 30px;
+}
+
+.main--texts h2 {
+  font-size: 16px;
+  color: #F5F5F5;
+  font-weight: 700;
+  margin-bottom: -5px;
+}
+
+.main--texts p {
+  font-size: 11px;
+  color: #DCDCDC;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.interests--text {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #161619;
+  text-align: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: -20px;
+}
+
+footer i {
+  padding: 10px;
+  color: #918E9B;
+}
